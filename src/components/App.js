@@ -42,7 +42,7 @@ export default function App() {
     <div>
       <p>
         {format(addDays(new Date(), 1), 'EEEE d-MMM')} there will be{' '}
-        <strong>{results.length}</strong> dude this is insane
+        <strong>{results.length}</strong> commit numba №3
       </p>
       <hr></hr>
       {results
