@@ -42,7 +42,7 @@ export default function App() {
     <div>
       <p>
         {format(addDays(new Date(), 1), 'EEEE d-MMM')} there will be{' '}
-        <strong>{results.length}</strong> COMMIT NO.5 from vscode
+        <strong>{results.length}</strong> COMMIT NO.6 from vscode
       </p>
       <hr></hr>
       {results
