@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build src/index.html --experimental-scope-hoisting"
+    "test": "node tests/*.js",
+    "build": "npm run test && parcel build src/index.html --experimental-scope-hoisting"
   },
   "keywords": [],
   "author": "",
